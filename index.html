@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lexend:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+              font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+
+            margin: 0;
+            padding: 0;
+            background-color:#F8F3D9;
+        }
+
+        header {
+            background-color: #FDAB9E;
+            color: black;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 145px; /* Adjust the size as needed */
+            height: 175px;
+            border-radius: 15px; /* Create a circular shape */
+             /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 25px; /* Adjust top position as needed */
+            right: 10%;/* Adjust left position as needed */
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+
+        nav {
+            background-color: #E50046;
+            color:pink;
+            text-align: center;
+            padding: 5px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            background-color: beige;
+            border-radius: 10px;
+            padding: 5px;
+            font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+}
+        
+        .name{
+            font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: left;
+  padding-left: 20px;
+        }
+        .hd{
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 20px;
+        }
+
+        .section-content {
+            background-color: #C7DB9C;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            text-align: center;
+
+            
+}
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+#about{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+#education{
+    padding-bottom: 10px;
+   
+}
+#skills{
+    padding-bottom: 10px;
+    
+}
+#Certificates{
+    padding-bottom: 10px;
+    
+}
+#Contact{
+    padding-bottom: 10px;
+    
+}
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        h2{
+            font-size: 25px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600px;
+  font-style: normal;
+  text-align: left;
+        }
+        .P{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:  689px;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+}  
+        li{
+            list-style: square;
+            font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:  689px;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+        }
+        dt{
+            padding-right: 200px;
+            font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:  689px;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+
+            
+        }
+        dd{
+            padding-left: 10px;
+            font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight:  689px;
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="roshan.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1 class="name">ROSHAN P</h1>
+            <p class="hd">COMPUTER ENGINEER</p>                                          
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Certificates">Certifications</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            
+           
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About</h2>
+            <p class="P">Results-driven software developer with expertise in Python, C++, and Java. Proficient in designing and implementing efficient code for diverse applications, from system-level programming to high-performance applications. Strong problem-solving skills with a solid foundation in algorithms, data structures, and software development best practices. Experienced in collaborating with cross-functional teams to deliver scalable, high-quality solutions. Passionate about continuous learning and staying up-to-date with the latest advancements in technology.</p>        </div>
+    </section>
+ <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p class="P">BCA-Bachelor Of Computer Application</p>
+            
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Data Structure</li>
+                <li>ML & AI</li>
+                <li>java</li>
+                <li>c++</li>
+                <li>Java script</li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+
+    <section id="Certificates">
+        <div class="section-content">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Mango DB</li>
+                <li>Mathworks</li>
+                <li>infosys</li> 
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <dl>
+                <dt><b>Phone Number</b></dt>
+                <dd>8754498933</dd>
+                <dt><b>Mail id</b></dt>
+                <dd>23h324@amjaincollege.edu.in</dd>
+            </dl>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2025 ROSHAN P</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
